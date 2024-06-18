@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+
+<AnchorPane prefHeight="50.0" prefWidth="750.0" styleClass="client_cell_container" stylesheets="@../../styles/ClientCell.css"
+            xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+   <FontAwesomeIconView glyphName="USER" layoutX="11.0" layoutY="29.0" size="20" AnchorPane.leftAnchor="14.0" AnchorPane.topAnchor="14.0" />
+   <HBox layoutX="94.0" layoutY="-16.0" prefHeight="40.0" prefWidth="550.0" AnchorPane.leftAnchor="60.0" AnchorPane.topAnchor="5.0">
+      <Label fx:id="fName_lbl" text="Benjamin" />
+      <Label fx:id="lName_lbl" text="Parker" />
+      <Label fx:id="pAddress_lbl" text="\@bParker" />
+      <Label fx:id="ch_acc_lbl" styleClass="acc_display_lbl" text="25412745" />
+      <Label fx:id="sv_acc_lbl" styleClass="acc_display_lbl" text="33547165" />
+      <Label fx:id="data_lbl" text="2024-04-10" />
+   </HBox>
+   <Button fx:id="delete_btn" layoutX="686.0" layoutY="13.0" mnemonicParsing="false" styleClass="delete_btn" text="Delete" AnchorPane.rightAnchor="14.0" AnchorPane.topAnchor="12.0">
+      <graphic>
+         <FontAwesomeIconView glyphName="WINDOW_CLOSE_ALT" size="15" />
+      </graphic>
+   </Button>
+</AnchorPane>
