@@ -33,7 +33,7 @@ Nach dem Start der Anwendung können Benutzer und Administratoren sich anmelden 
 - **Administratoren** können Kundenkonten erstellen, überwachen, löschen und Einzahlungen vornehmen.
 - **Kunden** können ihren Kontostand prüfen, Geld abheben, überweisen und ihre Transaktionshistorie einsehen.
 
-
+**(Sie finden die JAR-Datei und die Datenbank im Bereitstellungsordner - deply)**
 ## Autoritation :
 
 - **Admin** :   **Admin** 
