@@ -46,6 +46,12 @@ Nach dem Start der Anwendung können Benutzer und Administratoren sich anmelden 
 
 ## Autoritation Client :
 - **Admin** :   **@bBaker1** 
-- **Password** : **123456** 
+- **Password** : **123456**
+
+  ![Screenshot](img/client_dashboard.png)
+
+  ![Screenshot](img/transactions.png)
+
+    ![Screenshot](img/accounts.png)
 
 
