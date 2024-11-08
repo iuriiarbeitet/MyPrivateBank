@@ -26,26 +26,13 @@
 - **Java 11 oder höher** - JavaFX 17 setzt Java 11 oder eine neuere Version voraus.
 - **Maven** - Für das Abhängigkeitsmanagement und den Aufbau der Anwendung.
 
-## Installation und Ausführung
-
-1. Klone dieses Repository:
-    ```bash
-    git clone https://github.com/benutzer/MyPrivateBank.git
-    ```
-2. Wechsle in das Projektverzeichnis:
-    ```bash
-    cd MyPrivateBank
-    ```
-3. Baue und starte die Anwendung mit Maven:
-    ```bash
-    mvn clean javafx:run
-    ```
-
 ## Anwendung
 
 Nach dem Start der Anwendung können Benutzer und Administratoren sich anmelden und ihre spezifischen Funktionen nutzen.
 
 - **Administratoren** können Kundenkonten erstellen, überwachen, löschen und Einzahlungen vornehmen.
 - **Kunden** können ihren Kontostand prüfen, Geld abheben, überweisen und ihre Transaktionshistorie einsehen.
+
+![Screenshot](img/intro.png)
 
 
