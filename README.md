@@ -1,34 +1,51 @@
 # MyPrivateBank
 
-MyPrivateBank ist eine Desktop-Anwendung zur Verwaltung von Bankkonten, die mit **JavaFX** für die Benutzeroberfläche und **SQLite** für die Datenbankverwaltung entwickelt wurde. Die Anwendung ermöglicht die Erstellung von Bankkonten, die Durchführung von Transaktionen und die Anzeige von Transaktionshistorien und Kontoständen.
+**MyPrivateBank** ist eine JavaFX-basierte Desktop-Anwendung, die die Verwaltung von Bankkonten für Administratoren und Kunden vereinfacht. Die Anwendung ermöglicht es Administratoren, neue Kunden zu registrieren, Konten zu überwachen und Geldtransaktionen zu verwalten, während Kunden grundlegende Bankfunktionen nutzen können.
 
-## Funktionen
+## Hauptfunktionen
 
-- **Erstellung eines Bankkontos**: Benutzer können neue Bankkonten erstellen.
-- **Durchführung von Transaktionen**: Ermöglicht das Hinzufügen und Verwalten von Transaktionen zwischen Konten.
-- **Anzeige des Kontostands**: Anzeige des aktuellen Kontostands jedes Kontos.
-- **Transaktionshistorie**: Anzeige aller Transaktionen, die auf den Konten des Benutzers durchgeführt wurden.
+- **Administratorfunktionen:**
+  - Registrierung neuer Kundenkonten
+  - Verwaltung und Überwachung von Kundenkonten
+  - Löschung von Konten
+  - Einzahlung von Geld auf Kundenkonten
+
+- **Kundenfunktionen:**
+  - Zugriff auf eigene Konten und Salden
+  - Überweisungen und Abhebungen
+  - Transaktionshistorie einsehen
 
 ## Verwendete Technologien
 
-- **Java 17** - Die Hauptprogrammiersprache.
-- **JavaFX 17** - Verwendet für die Erstellung der Benutzeroberfläche.
-- **SQLite** - Verwendet für die Speicherung der Anwendungsdaten.
-- **FontAwesomeFX** - Verwendet für das Hinzufügen von Icons in die Benutzeroberfläche.
-- **Maven** - Verwendet für das Management von Abhängigkeiten und den Build-Prozess.
+- **JavaFX 17.0.2:** Für die Benutzeroberfläche der Anwendung.
+- **SQLite:** Lokale Datenbank für die Speicherung und Verwaltung der Konten- und Transaktionsdaten.
+- **FontAwesomeFX:** Für eine ansprechende und moderne Benutzeroberfläche mit Font Awesome Icons.
 
-## Anforderungen
+## Systemanforderungen
 
-- **Java 17** oder eine neuere Version.
-- **Maven** für das Abhängigkeitsmanagement.
-- **SQLite JDBC** für die Verbindung mit der SQLite-Datenbank.
+- **Java 11 oder höher** - JavaFX 17 setzt Java 11 oder eine neuere Version voraus.
+- **Maven** - Für das Abhängigkeitsmanagement und den Aufbau der Anwendung.
 
-## Installation
+## Installation und Ausführung
 
-### 1. Repository klonen
+1. Klone dieses Repository:
+    ```bash
+    git clone https://github.com/benutzer/MyPrivateBank.git
+    ```
+2. Wechsle in das Projektverzeichnis:
+    ```bash
+    cd MyPrivateBank
+    ```
+3. Baue und starte die Anwendung mit Maven:
+    ```bash
+    mvn clean javafx:run
+    ```
 
-Klonen Sie das Repository mit dem folgenden Befehl:
+## Anwendung
 
-```bash
-git clone https://github.com/username/MyPrivateBank.git
-cd MyPrivateBank
+Nach dem Start der Anwendung können Benutzer und Administratoren sich anmelden und ihre spezifischen Funktionen nutzen.
+
+- **Administratoren** können Kundenkonten erstellen, überwachen, löschen und Einzahlungen vornehmen.
+- **Kunden** können ihren Kontostand prüfen, Geld abheben, überweisen und ihre Transaktionshistorie einsehen.
+
+
