@@ -33,12 +33,19 @@ Nach dem Start der Anwendung können Benutzer und Administratoren sich anmelden 
 - **Administratoren** können Kundenkonten erstellen, überwachen, löschen und Einzahlungen vornehmen.
 - **Kunden** können ihren Kontostand prüfen, Geld abheben, überweisen und ihre Transaktionshistorie einsehen.
 
-**(Sie finden die JAR-Datei und die Datenbank im Bereitstellungsordner - deply)**
-## Autoritation :
+**(Sie finden die JAR-Datei und die Datenbank im Bereitstellungsordner - deploy)**
+## Autoritation Admin :
 
 - **Admin** :   **Admin** 
 - **Password** : **123456** 
 
 ![Screenshot](img/auth.png)
+![Screenshot](img/admin_dashboard.png)
+![Screenshot](img/clients.png)
+![Screenshot](img/deposits.png)
+
+## Autoritation Client :
+- **Admin** :   **@bBaker1** 
+- **Password** : **123456** 
 
 
