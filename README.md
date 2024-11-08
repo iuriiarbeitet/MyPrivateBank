@@ -33,6 +33,9 @@ Nach dem Start der Anwendung können Benutzer und Administratoren sich anmelden 
 - **Administratoren** können Kundenkonten erstellen, überwachen, löschen und Einzahlungen vornehmen.
 - **Kunden** können ihren Kontostand prüfen, Geld abheben, überweisen und ihre Transaktionshistorie einsehen.
 
+- **Admin**    **Admin** 
+- **Password** **123456** 
+
 ![Screenshot](img/auth.png)
 
 
